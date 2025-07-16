@@ -37,12 +37,12 @@ jobs:
         working-directory: ./client
         run: |
           npm run build
-          ls -la dist/
+          ls -la ../dist/public/
 
       - name: Prepare for deployment
         run: |
           mkdir -p dist
-          cp -r client/dist/* dist/
+          cp -r dist/public/* dist/
           touch dist/.nojekyll
           ls -la dist/
 
