@@ -150,11 +150,4 @@ npm test
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Vite](https://vitejs.dev/) for the amazing build tool
-- [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS
-- [Shadcn/ui](https://ui.shadcn.com/) for beautiful components
-- [Drizzle ORM](https://orm.drizzle.team/) for type-safe database access
+This project is for personal use and showcase purposes.
