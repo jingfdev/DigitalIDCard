@@ -31,7 +31,12 @@ jobs:
 
       - name: Build
         run: |
+          cd client
+          npm install
           npm run build
+          cd ..
+          mkdir -p dist/public
+          cp -r client/dist/* dist/public/
           touch dist/public/.nojekyll
 
       - name: Setup Pages
